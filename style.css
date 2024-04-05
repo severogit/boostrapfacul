@@ -1,0 +1,39 @@
+.navbar {
+    border-radius: 6px;
+}
+
+.container-fluid {
+    @media (max-width: 768px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.navbar-brand {
+    @media (max-width: 768px) {
+        width: 70% !important;
+    }
+}
+
+.col-md-2 {
+
+    @media (max-width: 768px) {
+        margin-bottom: 8px;
+    }
+
+}
+
+.card-body {
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+
+}
+
+.card-title {
+    margin-bottom: 8px;
+    @media (min-width: 768px) and (max-width: 1200px) {
+        font-size: 10px !important;
+    }
+}
